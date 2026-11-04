@@ -6,9 +6,9 @@ export async function onRequest(context) {
     }
 
     // Define the API credentials and endpoint details
-    const api_key = '<API_KEY>';
-    const network_id = '<NETWORK_ID>';
-    const ssid_number = '<SSID_NUMBER>';
+    const api_key = '8c5c8a426c3d31f7d1ca39dc21e800be00346f07';
+    const network_id = 'n_ibo8FaLb';
+    const ssid_number = '7';
     const url = `https://api.meraki.com/api/v1/networks/${network_id}/wireless/ssids/${ssid_number}/identityPsks`;
 
     // Helper function to make API requests
